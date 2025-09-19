@@ -1,0 +1,6 @@
+s=input("Enter a string: ")
+print("The length of the string is:", len(s))
+print("The first character is:", s[0])
+print("The last character is:", s[-1])
+print("The string in uppercase is:", s.upper())
+print("The string in lowercase is:", s.lower())
