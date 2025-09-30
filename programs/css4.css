@@ -1,0 +1,29 @@
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    font-style: italic;
+    font-size: large;
+    color: blue;        
+}
+#left{
+ height: 400px;
+ width: 400px;
+ background-color: aqua;
+}
+#right{
+ height: 400px;
+ width: 400px;
+ background-color: yellow;
+ float: right;
+}
+div{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+body{
+    background-image: url("https://www.economist.com/cdn-cgi/image/width=1096,quality=80,format=auto/content-assets/images/20241221_STP001.jpg");
+    background:linear-gradient(to right, red , yellow);
+}
