@@ -4,11 +4,14 @@
   background-color: aquamarine;
   position: relative;
   animation-name: example;
-  animation-duration: 8s; /* made longer to see full animation clearly */
-  animation-iteration-count: infinite; /* makes it loop forever */
+  animation-duration: 7s; 
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  animation-direction: alternate;
+
 }
 
-/* Animation path + color change */
+
 @keyframes example {
   0% {
     background-color: aquamarine;
